@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e24b56da0d.js" crossorigin="anonymous"></script>
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    
+
+    <div id="controls">
+        <h2>Etch-A-Sketch</h2>
+        <input type="range" id="slider-input" min="2" max="64" value="8">
+        <label id="grid-size-display" for="slider-input">Size: 8x8</label>
+
+        <br>
+
+        <input type="checkbox" id="border-switch" class="checkbox">
+        <label for="border-switch" class="switch"></label>
+        <p class="label" >Grid-lines</p>
+
+        <br>
+
+        <input type="checkbox" id="rand-color-switch" class="checkbox">
+        <label for="rand-color-switch" class="switch"></label>
+        <p class="label" >Random colors</p>
+
+        <br>
+
+        <i id="reset-btn" class="fas fa-redo"></i>
+        <p class="label" >Reset canvas</p>
+
+        
+
+    </div>
+    
+    <div id="grid-container"></div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
